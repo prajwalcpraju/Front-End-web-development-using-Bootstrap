@@ -1,0 +1,149 @@
+.row-header {
+	margin:0px auto;
+	padding: 0px;
+}
+
+.row-content{
+	background-color:#ffffff;
+	font-family: "serif;";
+	margin: 0px auto;
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px ridge;
+}
+
+.footer{
+    background-color: #ffcc00;
+    margin:0px;
+    padding: 20px ;
+}
+
+.jumbotron {
+    padding:50px 30px 50px 30px;
+    margin:0px auto;
+    background: #9575CD;
+    
+}
+
+address{
+    font-size:100%;
+    margin:0px;
+    color:#00008B;
+    padding: 100px 70px;
+}
+
+div.sglspread{
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 800px;
+}
+.leftcenteredText{
+	position: absolute;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.pgl-2-txt{
+	position: relative;
+	top: 0px;
+	line-height: 110%;
+	width: 460px;
+	margin-left: 0px;
+}
+.color-grey-hidden {
+	display: none;
+}
+.class{
+	text-align: center;
+}
+.right{
+	position: absolute;
+	right: 0px;
+}
+.column{
+	float: left;
+	width: 33.33%;
+}
+
+.extra{
+	column-count:3;
+	column-gap: 0px;
+	column-rule-color: 1px solid lightblue;
+	column-span: all;
+
+}
+
+h5{
+	color: black;
+	font-size: 100%;
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+     color: floralwhite;
+}
+.light {
+	background-color: #ccccff;
+}
+.close {
+	color: floralwhite;
+}
+.card-header {
+	background-color: #512DA8;
+	color: floralwhite;
+}
+.card-align{
+	margin-left: 250px;
+}
+
+.background{
+	background-color: #FF8000
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel {
+    background:#512DA8;
+}
+.carousel-inner{
+	background: #512DAB;
+}
+
+.carousel-item {
+  height: 300px;
+}
+.carousel-caption{
+	margin-left: 200px;
+	margin-bottom: 80px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.btn-smoke {
+	background: #FF0000;
+	color: white;
+}
+.btn-Non {
+	background: #009933;
+	color: white;
+}
+
+#carouselButton {
+    right:15px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}

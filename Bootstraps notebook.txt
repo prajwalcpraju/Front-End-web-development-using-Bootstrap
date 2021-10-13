@@ -1,0 +1,55 @@
+
+Setting up a Git :-
+
+git --version
+git config --global user.name "Your Name"
+git config --global user.email <your email address>
+git config --list
+
+Basic git commands :-
+git init
+git status
+git add .
+To commit the current staging area to your Git repository, type: git commit -m "first commit"
+To check the log of the commits to your Git repository, type :git log --oneline
+git reset HEAD index.html
+
+online Git Repository :-
+git remote add origin <repository URL>
+git push -u origin master
+git clone <repository URL>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Node Js and NPM :-
+
+after downloading nodejs through google go to the folder
+npm init
+npm install lite-server --save-dev 
+Next, open package.json in your editor and modify it as shown below. Note the addition of two lines, line 7 and line 9.
+"start": "npm run lite",
+"lite": "lite-server"
+npm start
+Next, create a file in your project directory named .gitignore (Note: the name starts with a period)Then, add the following to the .gitignore file
+  node_modules
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LESS and SASS :-
+
+Installing and using the lessc Compiler : 
+      npm install -g less@2.7.2
+Next, go to the CSS folder on your machine and rename the styles.css file that you have there as styles-old.css. This is to save the CSS file that we 
+have been using so far. We will be creating a new styles.css file by compiling the Less file.
+Next type the following at the command prompt to compile the Less file into a CSS file:
+     lessc styles.less styles.css
+
+Installing and using the node-sass module :
+     npm install --save-dev node-sass@4.7.2
+Next open your package.json file and add the following line into the scripts object there.  This adds a script to enable the compilation of the Scss 
+file into a CSS file:
+     "scss": "node-sass -o css/ css/"
+ npm run scss
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
